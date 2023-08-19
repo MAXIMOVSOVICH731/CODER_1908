@@ -1,0 +1,389 @@
+* {
+
+  margin: 0;
+  padding: 0;
+}
+body {
+	font-family: 'source sans 3';
+	background-color:#F1EED4;
+	overflow-x: hidden;   }
+  
+    
+h1{
+        font-family:'source sans 3';
+    }
+    
+a { font-family: 'raleway';
+        color: black;
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 1;
+        line-height: 2rem;
+    }
+.header{
+        height:fit-content;
+        padding:0px}
+ 
+
+.subsecciona {
+  height:150px;
+  background-color: black;
+ background-image:url(/assets/letra-ch-blanca-fondo-negro_853558-5185.jpeg) ;
+ background-position: center;
+ background-size: auto;
+ background-repeat:no-repeat;
+ position:static
+}
+.subseccionb {
+  background-color: white;
+}
+/*.header img{
+ ;
+    height:100px;
+    width: auto;
+    align-content: center;
+    justify-content: center; 
+    align-items:center; 
+     } */
+
+
+
+     /* En lugar de usar background-color en los botones, usaremos border para crear el efecto deseado */
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.menu li {
+  margin: 0;
+
+}
+
+.menu li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-right: 1px solid white; /* Agregar un borde blanco en el lado derecho de los botones */
+  flex-grow: 1; /* Hace que los botones ocupen el espacio disponible */
+  text-align: center;
+  transition: background-color 0.3s; /* Añadir una transición de color al pasar el mouse */
+}
+
+
+
+/* Cambia el color cuando navegopor arriba */
+.menu li a:hover {
+  color:white; 
+  background-color: #333;
+}
+.menu li a:not(:hover) {
+  color: black; }
+
+/* ORIGINAL MENU
+
+ .menu {
+color: black;
+  list-style: none; 
+  display: flex;
+  justify-content: center; 
+  padding: 0; 
+}
+.secnav {
+background-color: black;
+}
+.menu li {
+  margin: 0 10px; 
+}
+
+.menu li a {
+  text-decoration: none; 
+  padding: 10px; 
+  background-color: #f2f2f2; 
+  color: #333; 
+  border-radius: 5px; 
+}
+ */
+
+/*  sección 1 */
+.secciona {
+  height:fit-content;
+  background-image: url("/assets/AdobeStock_484876187_Preview.jpeg"); 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: flex-end; 
+  align-items: center; 
+}
+
+
+.botona{margin-top: 20px; 
+    padding: 10px 20px; 
+    background-color: #f2f2f2; 
+    color: #333; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    margin-right: 10px;
+    list-style: none;
+      
+}
+.botonb {
+  margin-top: 20px; 
+  padding: 10px 20px; 
+  background-color: #f2f2f2; 
+  color: #333; 
+  border-radius: 5px; 
+  text-decoration: none; 
+  list-style: none;
+  text-align: center;   
+}
+
+/*  f sección 1  */
+
+.boton {
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    background-color: #f2f2f2; 
+    color: #333; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    list-style: none;
+    text-align: center;
+  }
+  /*  f botones*/
+
+
+  .parallaxb
+  {
+    background-image: url("/assets/AdobeStock_484876187_Preview.jpeg"); 
+    height:auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    padding: 50px;
+  
+
+   
+  }
+/*  sección 2 */
+.seccionb {
+  margin-top:  0%;
+  background-color: black;
+    display: flex; 
+    align-items: center;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  }
+  
+  
+  .seccionb img {
+    max-width: 50%;
+    height: 350px;
+    margin-left: 20px; 
+    padding: 10px;
+    border-radius :30px;;
+  }
+  
+
+  .textsecb {
+    display: flex; 
+    flex-direction: column; 
+  }
+/* f sección 2 */
+
+.seccionc {
+  margin-top: 0%;
+  height: fit-content;
+  background-color: black;
+    display: flex; 
+    flex-direction: row-reverse;
+    align-items: center; 
+    border-radius: 20px;
+    display: flex;
+  align-items: center;
+
+
+  }
+  
+  /* sección 3 */
+  .seccionc img {
+    max-width: 50%;
+    height: 350px;
+    margin-left: 20px; 
+    padding: 20px;
+    border-radius :30px;;
+    }
+  
+  
+  .textsecc {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;}
+      /* f sección 3 */
+
+
+
+/* Estilo para las tarjetas */
+.card {
+  flex: 1; 
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  place-items:inherit;
+}
+.card h1 {
+  color: #f2f2f2;
+}
+.card p  {
+  color: #f2f2f2;
+}
+
+/* cambio de color botones */
+.card li {
+  background-color: black;
+  border-style:solid;
+  color: white;
+  padding: 0%;
+
+}
+.card li a{
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: grid;
+
+}
+.card li a:hover {
+  color: black;
+  background-color: white;
+
+}
+
+/* Estilo para las imágenes */
+
+
+
+      
+      /* parallax--- seccion 4 */
+      .secciond {
+        background-image: url(/assets/AdobeStock_219385465_Preview.jpeg);
+        
+        height:fit-content;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        padding-bottom: 30px;
+       
+    }
+ 
+    
+    .secciond ul {
+      list-style: none; 
+      padding: 0;
+     color: white;
+    }
+    .secciond ul li{
+      background-color: white;
+    }
+    .secciond ul li:hover{
+      background-color: black;
+    }
+    .botonw a{
+      color: black;
+     }
+      .botonw a:hover{
+        color: yellow;
+        }
+    
+     /* f- seccion 4 */
+
+     /* footer  - este me salio mas o menos jejeje*/
+    .footer {
+        display:flex; 
+        justify-content: center; 
+        align-items:center; 
+        background-color: black;
+        padding: 10px; 
+      }
+      
+      
+      .footer img {
+        width: 200px; 
+        height: 200; 
+      }
+      
+      .footer h4, .footer p {
+        color: white;
+        margin: 5px; 
+      }
+      
+      .footer iframe {
+        width: 150px; 
+        height: 150px;
+        border: 0;   }
+        /* f footer*/
+
+        .grid-container {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr); 
+          gap: 20px;
+        }        
+
+/* empieza css servicios */
+
+.listadeprecios  H3{
+  height: 35px;
+ box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+}
+
+.listadeprecios {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.servicio {
+  text-align: center;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.subservicios {
+  list-style: none;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.subservicios li {
+  padding: 5px 0;
+}        
+
+.imgserv{
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  height: 200px;
+
+  border-radius: 10px;
+}
+
+.secserva {
+  background-color: gray;
+}

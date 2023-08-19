@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TURNOS - CH Beauty Club</title>
+
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+         <!-- agregar logo-->
+        <div>
+		<img id="logo top" src="" alt="chuchuy bueaty bar">
+       </div>
+		<!-- f logo -->
+      
+		<nav>
+			<ul class="menu">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="servicios.html">Servicios</a></li>
+				<li><a href="turnos.html">Turnos</a></li>
+                <li><a href="el club.html">El Club</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+			
+			</ul>
+		</nav>
+		
+	</header>
+    <!-- f header -->
+    <!-- seccion 1 aca quiero hacer un parallax-->
+    <section id="seccion 1">
+<h1>NUESTRA CENTRAL DE TURNOS</h1>
+<H3>Reservar tu espacio nunca fue tan facil</H3>
+<p>Carga tus datos, elegi el servicio que queres realizarte, continua con el profesional que quieras que te atienda y selecciona el horario que mejor se adapte a tus necesidades</p>
+</section>
+<!--f seccion 1-->
+ 
+
+<!--seccion 2-->
+<section id="seccion2">
+     <!--turnero-->
+
+<form action="/resultados/" id="turnos">
+
+    <div class="turnero dp">
+        <h4>Completa tus datos personales</h4>
+  <input type="text" placeholder="Nombre y Appellido"> <br>
+  <input type="number" placeholder="Número de telefono"> <br>
+   <input type="email"  placeholder="Dirección de correo electronico"> 
+    <p>acepto recibir avisos y detalles especiales <input type="checkbox" name="box1" ></p> 
+    </div>
+  
+    
+    <h4> Elegi el Servicio que precisas</h4>
+    <select name="servicios" id="selector1" class="selector1"> 
+          <option value="cte">corte</option>
+          <option value="pdo">peinado</option>
+          <option value="clr">color</option>
+          <option value="ado">alisado</option>
+          <option value="mns">manos</option>
+          <option value="pes">pies</option>
+      </select>
+  
+
+
+    <h4> Elegi quien queres que te atienda</h4>  
+    <select name="profesionales" id="selector2" class="selector2"> 
+        <option value="M">Mariana</option>
+        <option value="J">Juan</option>
+        <option value="G">Gisella</option>
+        <option value="B">Belen</option>
+        <option value="L">Lucas</option>
+        <option value="P">Pedro</option>
+    </select>
+
+    
+
+<div class="turnero fecha">
+    <h4>Elegí el día y la hora mas conveniente</h4>
+    <input type="datetime-local" name="cal" id="calendario"><!--Entiendo que en realidad, deberia ser un frame que interactue con la agenda del establecimiento y nos permita elegir una fecha y hora dentro la disponibilidad. en su lugar por ahora inserte esto  -->
+</div>
+<div class="turnero coments">
+    <h4> ¿Tenes algo que nos quieras decir? </h4>
+    <textarea name="" id="comentarios" cols="40" rows="10">Si lo precisas dejanos una nota, aclaración o comentario para hacer mejor aun tu tiempo con nosotros</textarea>
+</div>        
+<DIV class="botonconfirm"><input type="submit" value="RESERVAR"></DIV>
+</form>
+       <!--f turnero-->
+</section>
+ <!--f seccion 2-->
+  <!--footer-->
+  <br> <br>
+<!-- agregar logo-->
+<div class="logo footer">
+<img id="logo footer" src="" alt="chuchuy beauty bar">
+</div>
+
+<div id="infosalon" class="infosalon">
+<h4> Horarios</h4>
+<p> Lunes a Sabado
+ de 9.00 a 22.00</p>
+ <h4> Encontranos en: </h4>
+ <p>Laprida 15, Salta, Salta, Argentina</p>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.1855302228428!2d-65.42476119999999!3d-24.789099799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3b3ac24990b%3A0xb4db8e832d290230!2sLaprida%2015%2C%20Salta!5e0!3m2!1ses-419!2sar!4v1690250567270!5m2!1ses-419!2sar" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </div>
+
+<div id="botones contacto" class="botones contacto">
+</div>  
+ <!-- f footer-->
+</body>
+</html>
+
+
+
+
